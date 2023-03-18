@@ -10,3 +10,8 @@ eureka:
       defaultZone: http://localhost:8761/eureka
     register-with-eureka: true
     fetch-registry: true
+ 
+okta:
+  oauth2:
+    issuer: https://dev-52006912.okta.com/oauth2/default
+    audience: api://default
